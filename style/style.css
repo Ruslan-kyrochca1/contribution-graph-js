@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contribution-graph{
+    text-align: center;
+}
+
+.contribution-graph__cell{
+    position: relative;
+    display: inline-block;
+    margin: 2px;
+    width: 14px;
+    height: 14px;
+    background-color: #949494;
+    cursor: pointer;
+}
+
+.contribution-graph__line{
+    height: 16px;
+}
+.module{
+    padding: 1px;
+    bottom: -55px;
+    left: -100px;
+    display: none;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    z-index: 1000;
+    border-radius: 10px;
+}
+.pointer{
+    bottom: -50px;
+    left: 0px;
+    position: absolute;
+    background-color: black;
+    width: 0px;
+    height: 0px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid #000;
+}
+
+.module__title{
+    font-size: 18px;
+    color: #fff;
+}
+
+.module__descr{
+    font-size: 15px;
+    color: #949494;
+}
