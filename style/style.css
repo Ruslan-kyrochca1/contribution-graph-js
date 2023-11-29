@@ -6,28 +6,29 @@
 
 .contribution-graph{
     text-align: center;
+    justify-content: center;
 }
 
 .contribution-graph__cell{
+    display: flex;
     position: relative;
-    display: inline-block;
     margin: 2px;
     width: 14px;
     height: 14px;
-    background-color: #949494;
     cursor: pointer;
 }
 
 .contribution-graph__line{
+    display: inline-block;
     height: 16px;
 }
 .module{
-    padding: 1px;
+    padding: 3px;
     bottom: -55px;
-    left: -100px;
+    left: -125px;
     display: none;
     position: absolute;
-    width: 200px;
+    width: 250px;
     height: 50px;
     background-color: black;
     z-index: 1000;
@@ -52,5 +53,5 @@
 
 .module__descr{
     font-size: 15px;
-    color: #949494;
+    color: rgba(237, 237, 237, 1);
 }
